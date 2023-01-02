@@ -8,6 +8,7 @@ const ExpensesFilter = (props) => {
 
     const yearChangeHandler = (event) => {
         props.onSaveYearData(event.target.value);
+  
     }
 
     return (
